@@ -1,12 +1,15 @@
 import { Avatar, Button } from "@mui/material";
 import React from "react";
+import "./TweetBox.css";
 
 export const TweetBox = () => {
   return (
     <div className="tweetBox">
-      <from>
-        <Avatar />
-        <input placeholder="いまどうしてる？" type="text"></input>
+      <form>
+        <div className="tweetBox--input">
+          <Avatar />
+          <input placeholder="いまどうしてる？" type="text"></input>
+        </div>
         <input
           className="tweetBox--imageInput"
           placeholder="画像のURLを入力してください"
@@ -15,7 +18,7 @@ export const TweetBox = () => {
         <Button className="tweetBox-tweetButton" type="submit">
           ツイートする
         </Button>
-      </from>
+      </form>
     </div>
   );
 };
