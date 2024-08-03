@@ -3,6 +3,7 @@ import React from "react";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import { TwitterShareButton } from "react-twitter-embed";
+import "./Widgets.css";
 
 const Widgets = () => {
   return (
