@@ -14,6 +14,9 @@ const TimeLine = () => {
       <TweetBox />
       {/* Post */}
       <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 };
